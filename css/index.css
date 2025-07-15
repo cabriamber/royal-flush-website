@@ -1,0 +1,21 @@
+.nav-bar {
+  display:flex; 
+  background-color: #343435;
+  width: 100vw; 
+  justify-content: space-between; 
+}
+
+.logo-and-name {
+  display:flex; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex; 
+}
+
+
+.nav-item {
+  background-color: aliceblue;
+
+}
