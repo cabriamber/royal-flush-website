@@ -25,13 +25,31 @@
 
     <div class = "hero-section">
       <img src = ./images/mushroom-background.jpg alt = "Photo of a cluster of mushrooms" style = "width: 100vw; height: auto;" >
+      <!--This image is a place holder for an eventual short timelapse video of mushrooms growing which will display
+      once the first time user's navigate to the page(use JS to show only the last frame when user's navigate back to home from 
+      other parts of the website)-->
 
       <div class = "hero-overlay">
-        <div class = "hero-card active">
+        <div class = "hero-card active"> 
+        <!--This hero card displays after the time lapse video ends. After a few seconds, the 
+        other hero cards (below) cycle through the screen in sequence-->
           <h2>Premium Supplies for Mushroom Growers</h2>
           <button class = "shop-now-button">Shop now</button>
         </div> <!---ends the hero card active div-->
-        
+
+        <div class = "hero-card" style = "display: none">
+          <h2>High Quality Bulk Substrate</h2>
+          <p>Optimal nutrition for a variety of species</p>
+          <p>Presterilized and ready to use</p>
+          <button class = "substrate-hero-button">Shop now</button>
+        </div> <!--ends the hero-card div-->
+
+        <div class = "hero-card" style = "display: none">
+          <h2>All in One Grow Bags</h2>
+          <p>Ready to innoculate</p>
+          <button class = "all-in-one-hero-button">Shop now</button>
+        </div>
+
       </div> <!--ends hero overlay section-->
     </div> <!---ends the hero section-->
 
@@ -39,8 +57,5 @@
       <div>Copyright © Royal Flush 2025</div>
     </div> <!--ends the footer div-->
 
-
-
-  </body>
 
 
